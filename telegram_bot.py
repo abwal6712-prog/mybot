@@ -26,4 +26,3 @@ if __name__ == "__main__":
     app.add_handler(MessageHandler(filters.TEXT & ~filters.COMMAND, echo))
     print("✅ البوت شغال...")
     app.run_polling()
-  
